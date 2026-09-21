@@ -1,0 +1,39 @@
+START STATE: NORMAL
+
+NORMAL (accept)
+    /     -> SLASH
+    "     -> STRINGLITERAL
+    '     -> CHARLITERAL
+    other -> NORMAL
+
+SLASH (accept)
+    *     -> COMMENT
+    /     -> SLASH
+    "     -> STRINGLITERAL
+    '     -> CHARLITERAL
+    other -> NORMAL
+
+COMMENT (reject)
+    *     -> STAR
+    other -> COMMENT
+
+STAR (reject)
+    /     -> NORMAL
+    *     -> STAR
+    other -> COMMENT
+
+STRINGLITERAL (accept)
+    \     -> STRINGLITERALESCAPE
+    "     -> NORMAL
+    other -> STRINGLITERAL
+
+STRINGLITERALESCAPE (accept)
+    other -> STRINGLITERAL
+
+CHARLITERAL (accept) 
+    \     -> CHARLITERALESCAPE
+    '     -> NORMAL
+    other -> CHARLITERAL
+
+CHARLITERALESCAPE (accept)
+    other -> CHARLITERAL

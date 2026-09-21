@@ -3,7 +3,7 @@ Assignment 1 readme File
 ------------------------------------------------------------------------
 What is your name?
 
-
+Marc Rossin
 
 ------------------------------------------------------------------------
 What authorized sources of information did you use to complete the
@@ -12,7 +12,9 @@ in the "Policies" web page (also available on armlab in the file
 ~cos217/AuthorizedSourcesList ) to this section of the readme file,
 and edit it as appropriate.
 
-
+Consulted the book C Programming: A Modern Approach (Second Edition), K. N. King, Norton & Co. 2008
+Consulted from precepts this week (9/14/2026-9/18/2026)
+Gemini for help when I couldn't escape after using the emacs command 
 
 ------------------------------------------------------------------------
 What unauthorized sources of information did you use to complete the
@@ -26,7 +28,7 @@ interaction, may additionally require the interaction being reported
 to the Committee on Discipline. Write "None" if you used no
 unauthorized sources of information.
 
-
+No unauthorized sources of information were used to my knowledge
 
 ------------------------------------------------------------------------
 In fulfillment of the requirement from section 2.4.3 of the Academic
@@ -36,7 +38,7 @@ enter your name in the space below the following affirmation:
 This paper represents my own work in accordance with University
 regulations.
 
-
+Marc Henry Rossin
 
 ------------------------------------------------------------------------
 In fulfillment of the requirement from section 2.4.6 of the Academic
@@ -44,12 +46,16 @@ Regulations in Princeton's Rights, Rules, Responsibilities guide,
 and the COS 217 Generative AI policy, disclose and describe how you
 used AI in completing this assignment:
 
-
+The only use of AI was when I couldn't figure out how to leave the emacs
+command, and when I looked it up I read the gemini bubble that popped up
+at the top of the search.
 
 ------------------------------------------------------------------------
 What is your assessment of the assignment? Was it helpful? Was it fun?
 
-
+I do think it was very useful in the case of learning to debug and think
+DFAs, the only problem I had was that it was a pain writing out a lot of
+repetitive code with long variable names (althought that was more so my fault)
 
 ------------------------------------------------------------------------
 (optional) What information can you provide about your submission that
